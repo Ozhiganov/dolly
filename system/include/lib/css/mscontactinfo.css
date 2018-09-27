@@ -1,0 +1,44 @@
+.mscontacts__prototype{display:none;}
+.mscontacts .form__row{position:relative;}
+.mscontacts .delete_block{top:.2em;right:29px;}
+.mscontacts input[type="checkbox"]{cursor:pointer;}
+.mscontacts input[type="text"]:disabled{text-decoration:line-through;background-color:#F5F5F5;}
+.msui_input.mscontacts__value{background-position:98%;padding-right:30px;background-repeat:no-repeat;}
+.mscontacts__value[data-type_id='email']{background-image:url('/system/img/email.png');}
+.mscontacts__value[data-type_id='url']{background-image:url('/system/img/link.png');}
+.mscontacts__value[data-type_id='phone_num']{background-image:url('/system/img/phone.png');}
+.mscontacts__value[data-type_id='skype']{background-image:url('/system/img/skype.png');}
+.mscontacts__value[data-type_id='icq']{background-image:url('/system/img/icq.png');}
+.mscontacts__add{margin:.25em 1.5em .5em 0;}
+.mscontacts__action{height:28px;position:absolute;top:2px;border-radius:4px;}
+.mscontacts__action._move{right:0;}
+.form.mscontacts .msui_input{max-width:600px;}
+.form.mscontacts .msui_input.mscontacts__title{background-color:#fcfcff;min-width:0;}
+.mscontacts .form__row{padding-right:58px;}
+.mscontacts__delete{background:url('/system/img/delete.png') no-repeat center;cursor:pointer;}
+.mscontacts__delete:hover{background-color:#fee;}
+.form__row._captured{background-color:#cfe9ff;padding-left:2px;}
+.mscontacts._groups .multiselect3_wr{position:relative;}
+.mscontacts._groups .multiselect3_wr > .multiselect3._expanded{position:absolute;top:0;z-index:100;box-shadow:1px 1px 7px #222240;min-width:240px;}
+.msui_select.mscontacts_show_group{margin:0 11px;border-bottom-left-radius:0;border-bottom-right-radius:0;border-bottom:none;}
+@media (max-width:499px){
+.mscontacts .form__row._value{padding-right:0;}
+.mscontacts .form__row._value._captured{padding-right:2px;}
+.form__row._value .mscontacts__action, .form__row._value .delete_block{top:auto;bottom:.2em;}
+.mscontacts._default .mscontacts__value{margin-bottom:29px;}
+}
+@media (max-width:749px){
+.mscontacts .mscontacts__title, .mscontacts .mscontacts__value{display:block;}
+.mscontacts._groups .mscontacts__title, .mscontacts._groups .mscontacts__value{margin-bottom:1px;}
+}
+@media (min-width:750px){
+.form__row._header .mscontacts__title{margin-right:1%;}
+.form__row._value .mscontacts__title{width:34%;margin-right:1%;}
+.form__row._value .mscontacts__value{width:65%;}
+.mscontacts._groups .mscontacts__value{width:52%;margin-right:1%;}
+.mscontacts._groups .multiselect3_wr{width:12%;}
+.mscontacts._groups .multiselect3_wr > .multiselect3._expanded{right:0;}
+}
+@media (min-width:1000px){
+.mscontacts{border-radius:8px;border-width:1px;margin-left:auto;margin-right:auto;}
+}

@@ -1,0 +1,13 @@
+.msbarchart{position:relative;}
+.msbarchart > svg{border-left:1px solid black;border-bottom:1px solid black;display:block;}
+.msbarchart__labels._x{position:relative;}
+.msbarchart__labels._y{position:absolute;top:4px;left:0;}
+.msbarchart__label{font-size:.8em;position:absolute;cursor:default;}
+.msbarchart__labels._x .msbarchart__label{color:#555;top:0;padding:0 2px;}
+.msbarchart__labels._y .msbarchart__label{color:#bbb;right:0;margin-top:-0.75em;}
+.msbarchart__grid{shape-rendering:crispEdges;stroke:#ededed;}
+.msbarchart__bar{}
+.msbarchart__bar[data-state="active"]{opacity:0.25;}
+.msbarchart__tooltip{}
+.msbarchart__tooltip[data-state="hidden"]{display:none;}
+.msbarchart__tick{height:3px;width:1px;background:#999;position:absolute;top:0;}

@@ -1,0 +1,27 @@
+.header_nav_item{position:relative;}
+.header_nav_item__links{z-index:50;position:absolute;background:white;box-shadow:3px 3px 8px #222240;top:17px;left:4px;padding:1px 0 3px;display:none;}
+.header_nav_item:hover .header_nav_item__links{display:block;}
+.header_nav_item > a{padding:3px 0;}
+.header_nav_item:hover > a{padding-left:14px;color:red;text-decoration:none;background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAGCAYAAAFmwIRTAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wsCEioQnxtWkgAAAEFJREFUCNddjcENADEMwkz339n3iNrS45FImJCoAKDOmCXZaLHV+MZANAAkjlFah05H3kTD5PjnfZv/oxvqhm4EPqzSOeAFJ0uVAAAAAElFTkSuQmCC') no-repeat 0 10px;}
+.header_nav_item__links a{font-size:12px;display:block;padding:2px 10px;margin:1px 0;white-space:nowrap;}
+.pages_prev_next{margin:1.25em 0 .25em;padding:0 0 10px;}
+.pages_prev_next__block{width:49%;background:white;}
+.pages_prev_next__block._prev{float:left;}
+.pages_prev_next__block._next{float:right;text-align:right;}
+.pages_prev_next__base{position:relative;height:0;}
+.pages_prev_next__group{display:none;position:absolute;z-index:50;bottom:0;left:0;right:0;overflow:hidden;padding:5px 14px 0 5px;}
+.pages_prev_next__button{display:block;}
+.pages_prev_next__button._main{font-family:verdana;padding:15px 11px 7px;position:relative;z-index:5;bottom:10px;}
+.pages_prev_next__button._other{padding:2px 11px 3px;}
+.pages_prev_next__button._no_href{color:#39f;cursor:default;}
+.pages_prev_next__shadow, .pages_prev_next__block:hover .pages_prev_next__button._main{box-shadow:1px 1px 7px #222240;}
+.pages_prev_next__shadow._top{padding:3px 0;background:white;border-bottom:1px dotted #cfcff7;}
+.pages_prev_next__crop{overflow:hidden;padding:0 14px 5px 5px;}
+.pages_prev_next__block:hover .pages_prev_next__group{display:block;}
+.header_nav_item__links a:hover, .pages_prev_next__button:hover{background:#39f;color:white;}
+@media (min-width:460px){
+.pages_prev_next__block{width:46%;}
+}
+@media (min-width:750px){
+.pages_prev_next__block{width:30%;}
+}

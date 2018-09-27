@@ -1,0 +1,5 @@
+.uri_col{word-break:break-all;}
+.user__banned{color:red;}
+.user__suid{color:#999;}
+.user__banned .user__suid{color:#f99;}
+.user__permissions{background-repeat:no-repeat;background-position:center;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABTUlEQVQ4T5WT7UrCUBzGn6Obm22z2HwBCYzWt75GV9A1BN5EN9E1dA16C33tQ9T3IHtRCALLqbDNmlN6+Z8jjqnl3IHBYPx+z/PfOYch5Wo36j9zxK43GEvDc7hwUEHxyEaneY1UghlsUV4G3rMjcjcWzOAdSt6l5DsBzpsnjiDgmkFwBZAlErQ2Fwi4uoXioYn+owvvxY+qJzbgsF5SUbYLQC6LzlV3IXlFEN8e/jFvyjCqGhSCZS646f0v4LC6PYVe/gbLSADL0SPRuwy/O0UwDFeqRw0EbATQSoEAOByXOPfhn8kLArP2CsYIJsGyxGl9JQsU3UM4op9FSy2ENMokauI8ZJMFHLy8ncD1Rzg9MWHtD6Mm/SdlM8FFs4233gDnZ8ew9t7FOB8DA2NXXi/g6fEt5ONolofPoYWxn18LczY6ysvnYH5Zkm7rL7WZihETEQWCAAAAAElFTkSuQmCC');}

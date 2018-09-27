@@ -1,0 +1,4 @@
+.msfunnelchart__svg{float:left;margin-right:10px;}
+.msfunnelchart__legend{margin-left:200px;}
+.msfunnelchart__title{padding:8px 0 0 12px;height:52px;line-height:22px;}
+.msfunnelchart__title:nth-child(2n+1){background:#f7f7f7;}

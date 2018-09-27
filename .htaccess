@@ -1,0 +1,21 @@
+
+           <Files orders.txt>
+               deny from all
+           </Files>
+
+           <Files _scripts>
+               deny from all
+           </Files>
+
+            <Files *.ini>
+                deny from all
+            </Files>
+            AddDefaultCharset UTF-8 
+
+            RewriteEngine On
+            RewriteBase /
+
+            RewriteCond %{REQUEST_FILENAME} !-f
+            RewriteCond %{REQUEST_FILENAME} !-d
+
+            RewriteRule ^(.*) index.php [QSA]

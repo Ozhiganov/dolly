@@ -1,0 +1,85 @@
+/*-------------------------------------
+zTree Style
+
+version:	3.5.19
+author:		Hunter.z
+email:		hunter.z@263.net
+website:	http://code.google.com/p/jquerytree/
+
+-------------------------------------*/
+.ztree ul {
+    background: rgba(0, 0, 0, 0) url("../images/folder_line.png") no-repeat scroll 3px -5px;
+    display: block;
+    margin: 6px 0 0;
+    padding: 0 0 0 28px;
+}
+.ztree li {
+	list-style:none;
+}
+.ztree li a {
+	padding: 7px 10px;
+	display: block;
+	cursor: pointer;
+}
+.ztree li a.curSelectedNode {
+	background: #e5f5fd;
+}
+.ztree li span.button {
+	background: none;
+	min-width: auto;
+	border: none;
+	text-align: left;
+	width: auto;
+	padding: 0;
+	font-size: 16px;
+	color: #b2b2b2
+}
+
+.ztree li span.button.ico_open{
+	margin-right:5px;
+	font-family: 'FontAwesome';
+	font-size: 20px;
+	  vertical-align:top; 
+	
+}
+.ztree li span.button.ico_docu {
+	font-family: 'FontAwesome';
+	font-size: 16px;
+	margin-right:5px;
+}
+.ztree li span.switch {
+	  background: rgba(0, 0, 0, 0) url("../images/tree_icon.png") no-repeat scroll 1px 0;
+    float: left;
+    height: 9px !important;
+    margin: 13px 0 0 0px;
+   	    padding: 9px 1px 0 17px;
+    width: 9px;
+}
+.ztree li span.switch.center_open,
+.ztree li span.switch.roots_open,
+.ztree li span.switch.bottom_open
+ {
+	background-position: 1px -9px;
+}
+.ztree li span.switch.center_docu,
+.ztree li span.switch.bottom_docu
+ {
+	background: none;
+}
+.ztree li span.button.ico_docu:before {
+	content: "";
+}
+.ztree li span.button.ico_open:before {
+	content: "";
+}
+.ztree li span.button.ico_close{
+	margin-right:5px; 
+	font-family: 'FontAwesome';
+	font-size: 20px;
+	 vertical-align:top; 
+	 width: 23px;
+}
+.ztree li span.button.ico_close:before {
+	
+	 content: "";
+}

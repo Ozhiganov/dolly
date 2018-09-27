@@ -1,0 +1,5 @@
+.progress_bar{display:inline-block;width:200px;height:18px;background:#ff7f5f;position:relative;vertical-align:-5px;margin:0 40px;}
+.progress_bar__value{position:absolute;top:0;bottom:0;line-height:18px;text-align:center;}
+.progress_bar__value._running{right:0;}
+.progress_bar__value._completed{left:0;background:#7fff00;}
+.progress_bar__value._completed .progress_bar__label{position:absolute;top:0;right:0;width:100%;min-width:35px;}

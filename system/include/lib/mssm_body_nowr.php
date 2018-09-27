@@ -1,0 +1,1 @@
+<div id="body" data-state="discarded"><?=$content?></div><a href="<?=self::$nowr_back['href']?>" class="mssm_close_discarded"><?=self::$nowr_back['title']?></a>

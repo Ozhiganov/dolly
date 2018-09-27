@@ -1,0 +1,60 @@
+.msui_mfile ul{list-style-type:none;padding:0;margin:0;}
+.msui_mfile__file{padding:0 130px 0 25px;margin:2px 0;background:url('/system/img/ftypes/unknown.png') left 7px no-repeat;cursor:default;position:relative;}
+.msui_mfile__attr{font-style:normal;display:inline-block;vertical-align:middle;white-space:nowrap;}
+.msui_mfile__attr._size{color:#777797;margin:0 .5em;font-size:.9em;}
+.msui_mfile__attr._name{overflow:hidden;white-space:nowrap;max-width:55%;}
+.msui_mfile__file._completed{display:none;}
+.msui_mfile__file._deleted{opacity:0.6;}
+._deleted .msui_mfile__attr._name{color:#9999a7;}
+._deleted .msui_mfile__attr._size{color:#bbbbd2;text-decoration:line-through;}
+.msui_mfile .delete_block{position:static;}
+.msui_mfile__bar{width:120px;height:17px;border:1px solid #aaaabc;position:absolute;top:2px;right:0;}
+.msui_mfile__bar div{height:100%;width:0;background:#ceceee;text-indent:10px;}
+.msui_mfile__bar .error{width:100%;background:red;color:white;}
+._deleted > .msui_mfile__bar{display:none;}
+
+.msui_file_input{display:inline-block;vertical-align:middle;background-color:white;border-radius:4px;color:#555;border:1px solid #CCC;box-sizing:border-box;width:300px;height:28px;overflow:hidden;cursor:default;position:relative;}
+.msui_file_input__inner{position:absolute;width:90px;top:0;bottom:0;left:0;color:#D9EEF7;padding:5px .5em;white-space:nowrap;font-size:.9em;background:#0076a3 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAdCAYAAACNKM0tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA+SURBVChTY2RY8+Y/AxJgYvj3jwEZAwX+AgUQmCwV/4H6kTBZZmC6A91h/4FOR8LUcTo51hIOQtLDlHLPAQCyguDlzOJaXQAAAABJRU5ErkJggg==') repeat-x;}
+.msui_file_input__inner:hover{color:white;}
+.msui_file_input__name{margin:0 34px 0 107px;white-space:nowrap;overflow:hidden;height:100%;line-height:26px;vertical-align:middle;font-size:.9em;}
+.msui_file_input__label{text-indent:21px;background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcElEQVQ4T5WSz2rCQBDGJxYMyUFUDJGg9Al8hlx6Lgq95BxoiQ/gY3gt1HOv9Qk85dBiKeRW7zkk0QqaSCAkamdit/VPlPSDsOxk5rc73ywHPxqNRtFms4nZfn+9Qnme96Fp2h3G3f1/HG0EQegEQfCSVUyxOI7Btm0wTfNd1/UbDPksNwWIotj2fX94CTCZTKDVasFgMHg1DOMWc78oPxdgu92CZVnQbDahVqtBv99/6/V6HWonF4BOGo/HUCwWYb1eQ6VSAVVVHxzHeToA0EmXlCQJ0IeeQaPR6Lqu+/gvwK9xHJcNoOvlEU41G0DjuiR8J0Df2RaiKMqspyLyh9ZCoUBjB0VRutPp9NCD1WqVJjBRAYmtLF4qlbIBi8UijwVQLpcPATjfdhiGw/l8ngtQrVahXq93MX/XAgPMZrMTAIcjOxY9JPLgBMCMOu772AOe50GW5T8AFlxLknSPiTvXUOdeJb6V9ErL5fIZl89v0mjpEVYp/QYAAAAASUVORK5CYII=') no-repeat left center;}
+.msui_file_input input[type="file"]{position:absolute;top:-0.5em;left:-0.5em;z-index:1;font-size:9em;opacity:0;}
+.msui_file_input__clear{position:absolute;z-index:3;top:0;right:0;border:none;width:30px;height:100%;padding:0;margin:0;cursor:pointer;font-family:verdana;font-size:1em;color:#F7D9EE;border-left:1px solid #980c10;background:#ac1317 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAdCAIAAAACSlp6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIRJREFUKFM9x9sGAlEARuG/Z5jZs08zs+fw+kkiiUQSI4kkEkkk6Snqai3fzRp9Yy/6D/SJPfSOHfQKHfQMLfQILXT3DXTzDXT1Cbq4BJ1dgk6uho62hg62gva2ggZbQruihLZFhDZFhNYmQisToKUJ0CL30Dz30Cx30DRz0CSz0Diz+AHS3HC6X7JFfQAAAABJRU5ErkJggg==") repeat-x 0 0;}
+.msui_file_input__clear:hover{color:white;}
+.msui_file_input__clear._hidden{display:none;}
+
+.file_type[data-ext="css"], [data-ext="css"] .msui_file_input__label{background-image:url('/system/img/ftypes/css.png');}
+.file_type[data-ext="pdf"], [data-ext="pdf"] .msui_file_input__label{background-image:url('/system/img/ftypes/pdf.png');}
+.file_type[data-ext="gif"], [data-ext="gif"] .msui_file_input__label, .msui_mfile__file[data-ext="gif"]{background-image:url('/system/img/ftypes/gif.png');}
+.file_type[data-ext="jpeg"], [data-ext="jpeg"] .msui_file_input__label, [data-ext="jpg"] .msui_file_input__label, .msui_mfile__file[data-ext="jpeg"], .msui_mfile__file[data-ext="jpg"]{background-image:url('/system/img/ftypes/jpg.png');}
+.file_type[data-ext="bmp"], [data-ext="bmp"] .msui_file_input__label{background-image:url('/system/img/ftypes/bmp.png');}
+.file_type[data-ext="png"], [data-ext="png"] .msui_file_input__label, .msui_mfile__file[data-ext="png"]{background-image:url('/system/img/ftypes/png.png');}
+.file_type[data-ext="avi"], [data-ext="avi"] .msui_file_input__label{background-image:url('/system/img/ftypes/avi.png');}
+.file_type[data-ext="doc"], [data-ext="doc"] .msui_file_input__label{background-image:url('/system/img/ftypes/doc.png');}
+.file_type[data-ext="ppt"], [data-ext="ppt"] .msui_file_input__label{background-image:url('/system/img/ftypes/ppt.png');}
+.file_type[data-ext="rar"], [data-ext="rar"] .msui_file_input__label{background-image:url('/system/img/ftypes/rar.png');}
+.file_type[data-ext="txt"], [data-ext="txt"] .msui_file_input__label{background-image:url('/system/img/ftypes/txt.png');}
+.file_type[data-ext="xls"], [data-ext="xls"] .msui_file_input__label{background-image:url('/system/img/ftypes/xls.png');}
+.file_type[data-ext="zip"], [data-ext="zip"] .msui_file_input__label{background-image:url('/system/img/ftypes/zip.png');}
+.file_type[data-ext="php"], [data-ext="php"] .msui_file_input__label{background-image:url('/system/img/ftypes/php.png');}
+.file_type[data-ext="html"], [data-ext="html"] .msui_file_input__label{background-image:url('/system/img/ftypes/html.png');}
+.file_type[data-ext="xml"], [data-ext="xml"] .msui_file_input__label{background-image:url('/system/img/ftypes/xml.png');}
+
+.msui_image_input{display:inline-block;vertical-align:middle;width:300px;}
+.msui_image_input__url, .msui_image_input .msui_file_input{width:100%!important;}
+.msui_image_input__url, .msui_image_input._url .msui_file_input{display:none;}
+.msui_image_input._url .msui_image_input__url{display:inline-block;}
+.msui_image_input__bottom{text-align:right;margin:0 2px .25em;}
+.msui_image_input__toggle{font-size:.9em;}
+.max_upload_size{font-size:.85em;color:#999;}
+.max_upload_size:before{content:'(';}
+.max_upload_size:after{content:')';}
+
+.form__row > .msui_file_input, .form__row > .msui_image_input{min-width:300px;max-width:450px;width:100%;}
+@media (min-width:750px){
+.form__row > .msui_file_input, .form__row > .msui_image_input{width:50%;}
+.form__input_wr > .msui_file_input, .form__input_wr > .msui_image_input{width:100%;}
+}
+@media (min-width:1000px){
+.form__row > .msui_file_input, .form__row > .msui_image_input{width:55%;}
+}

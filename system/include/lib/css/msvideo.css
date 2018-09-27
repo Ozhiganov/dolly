@@ -1,0 +1,6 @@
+._video_preview{overflow:hidden;border:1px solid #aaaabc;}
+._video_preview iframe, ._video_preview object, ._video_preview embed{border:0;margin:0;padding:0;display:block;}
+._video_preview, ._video_preview iframe, ._video_preview object, ._video_preview embed{max-width:330px;max-height:240px;}
+._image_preview{float:left;margin-right:17px;width:185px;}
+._image_preview img{border:1px solid #aaaabc;display:block;margin:0 0 3px;max-width:185px;max-height:140px;}
+._video_preview._hidden, ._image_preview._hidden, .form_row_hidden, .form._msvideo .form__row[data-name="code"]{display:none;}

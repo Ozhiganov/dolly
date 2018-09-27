@@ -1,0 +1,14 @@
+#work_area pre {margin: 0px; font-family: monospace;}
+#work_area table {border-collapse: collapse;}
+#work_area .center {text-align: center;}
+#work_area .center table { margin-left: auto; margin-right: auto; text-align: left;}
+#work_area .center th { text-align: center !important; }
+#work_area td, th { border: 1px solid #000000; font-size: 75%; vertical-align: baseline;}
+#work_area h1 {font-size: 150%;}
+#work_area h2 {font-size: 125%;}
+#work_area .p {text-align: left;}
+#work_area .e {background-color: #ccccff; font-weight: bold; color: #000000;}
+#work_area .h {background-color: #9999cc; font-weight: bold; color: #000000;}
+#work_area .v {background-color: #cccccc; color: #000000;}
+#work_area .vr {background-color: #cccccc; text-align: right; color: #000000;}
+#work_area hr{display:none;}

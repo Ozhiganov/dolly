@@ -1,0 +1,5 @@
+.table tbody td{line-height:120%;}
+.table tbody td + td + td{cursor:pointer;}
+.table tbody td + td + td + td{text-align:center;color:green;}
+.table tbody td + td + td + td em{color:red;}
+.table .not_show img{display:block;margin:-1px auto -2px;}

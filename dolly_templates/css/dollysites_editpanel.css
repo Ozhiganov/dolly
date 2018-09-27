@@ -1,0 +1,43 @@
+@charset "UTF-8";
+#nicEditor {margin:0 -5px;}
+.dolly_editor_elements {
+	text-transform: lowercase;
+	height: 20px;
+	margin-bottom:-6px;
+	color: #569fd0;
+	font-size:13px;
+	position:relative;
+	top:3px;
+}
+.dolly_editor_elements span.de_navtag { cursor: pointer; }
+.dolly_editor_elements span.de_navgt { color: black; }
+.dollyeditor_select { background: rgba(59, 141, 226, 0.16); }
+.dollyeditor_codeblock {
+	position: fixed;
+	top: 0; bottom: 0; left: 0; right: 0;
+	margin: auto;
+	width: 600px;
+	height: 300px;
+	border: 1px solid black;
+	background-color: white;
+	z-index: 9999;
+	padding: 15px;
+}
+#dollyeditor_codeblock textarea {
+	font-size: 13px;
+	width: 100%;
+	height: 90%;
+}
+#de_codeblock_manage1, #de_codeblock_manage2 {
+	display: inline;
+	color: #5a77d1;
+	font-size: 14px;
+	padding: 7px 10px 10px 10px;
+}
+#de_codeblock_manage1 { float: left; }
+#de_codeblock_manage2 { float: right; }
+#de_codeblock_manage1, #de_codeblock_manage2 span {
+	padding-left: 10px;
+	cursor: pointer;
+}
+.de_replaceblock_textarealeft, .de_replaceblock_textarearight { width: 46%; height: 50%; }

@@ -1,0 +1,27 @@
+.search_form{background:#fafafa;border:solid #efeff8;border-width:1px 0;padding:.5em 10px .7em;margin:0 -10px 1em;position:relative;}
+.search_form__fields{font:.9em verdana;line-height:160%;margin:0 0 .4em;}
+.search_form__fields input[type="checkbox"]{vertical-align:-2px;}
+.search_form__fields label{white-space:nowrap;}
+.search_form__alert{font:12px verdana;border:2px solid #D33;color:#A44;padding:5px 9px;background:#FFF;position:absolute;top:-34px;left:-10px;z-index:200;cursor:default;border-radius:9px;box-shadow:1px 1px 8px #F99;}
+.search_form__alert._hidden{display:none;}
+.search_form__alert:before{content:' ';position:absolute;width:0;height:0;left:11px;top:25px;border:7px solid;border-color:#D33 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #D33;}
+.search_form__alert:after{content:' ';position:absolute;width:0;height:0;left:13px;top:24px;border:5px solid;border-color:#FFF rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #FFF;}
+.search_form__inputs{position:relative;padding:0 35px 0 0;max-width:400px;}
+.search_form__found{font:.75em verdana;color:#888;position:absolute;left:11px;top:105%;}
+.search_form__text{width:100%!important;}
+.search_results{margin:.25em 0;}
+.result{padding:5px 350px 5px 3px;border-top:1px dotted #999;position:relative;min-height:26px;}
+.result:hover{background:#FAFAFA;}
+.result__icon_wr, .result__icon{width:36px;height:36px;}
+.result__icon_wr{float:left;margin:0 6px 0 0;}
+.result__icon{overflow:hidden;background:white;position:relative;}
+.result__icon:hover{width:150px;height:auto;box-shadow:1px 1px 6px #222240;z-index:100;}
+.result__icon:after{content:'';position:absolute;width:16px;height:16px;top:3px;left:3px;background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR42q3SyxKAIAgFUPly4ctrXNDciMeg3ZWNcgqDhgkzX7CmUYRs4Zzz2RSREiItxkKbBUWIC6wC+xwC3tstkCEvQHvG4F4JbH3B8R388hcUwZ69OwlbMIc+k5hNZzmqGdwCIqQFeEgbQGQbwNw9G2oR0Ljx/AAAAABJRU5ErkJggg==') center no-repeat;}
+.result__icon:hover:after{display:none;}
+.result__icon img{display:block;margin:auto;}
+.result__title{font-family:verdana;padding:0 0 3px;}
+.result__crumbs{font-size:.85em;color:#888;}
+.result .pagetree__actions{top:50%;margin-top:-13px;position:absolute;right:8px;}
+@media (min-width: 1000px){
+.search_form{border-radius:8px;border-width:1px;margin-left:0;margin-right:0;}
+}

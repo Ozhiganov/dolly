@@ -1,0 +1,25 @@
+.simplepagetree._popup{z-index:999;position:absolute;}
+.simplepagetree__inner{position:relative;background:white;padding:0 10px;border:1px solid #777797;box-shadow:0 0 6px #999;min-width:250px;max-width:450px;border-radius:5px;max-height:500px;overflow:auto;height:100%;}
+.simplepagetree__top{height:16px;}
+.simplepagetree__button{display:inline-block;padding:2px 7px 3px;cursor:pointer;color:#777;border:none;}
+.simplepagetree__button._close{color:red;background:#ffe5e5;border-radius:0 4px;position:absolute;top:0;right:0;z-index:10;}
+.simplepagetree__button._close:hover{color:white;background-color:red;}
+.simplepagetree__branch{list-style:none;padding:0 0 0 3px;margin:0;}
+.simplepagetree__node{padding:0 0 0 17px;position:relative;margin:5px 0;}
+.simplepagetree__leaf{color:blue;cursor:pointer;}
+.simplepagetree__comment{color:#88a;margin:0 0 0 .2em;font-style:italic;}
+.simplepagetree__node[data-hidden="1"] .simplepagetree__leaf{color:#999;}
+.simplepagetree__node[data-hidden="1"] .simplepagetree__leaf:after{content:'';padding:2px 11px;margin:0 0 0 .25em;background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAB7UlEQVQ4T92Tv2sTcRTAe5cfF0iXBpEUgiCCIFJQ0cXN1bVwNeLgokHzyztSB6dsCobQXNKkzeQUaPVPEAcnodUOhU4dHFQQLa2SxSR36eeVfEMSadKhUw++vHfvx+e993132tQpP9op86bOMLBSqdyQ60qlUl8Gr23syMViMeLz+a5rmhYlyYf82W63PwaDwSue563rum5OBHa7Xa1cLt8l+QH6PnID+R2ghz7d6XS+UuQdtoVsNvt5dKlDHVar1RkSlgjeJLmeyWT+FQqFc4FAIA7kA8mG6oy4ALYnyGeWZR0ocB9Yq9XO41xhjOfJZHJXAgRmGEbddd2XFJAO1wbHdBznkoRxHlP8l+QcAfP5vD8SiTQAWrZty3hHT6lUStPtJ7/f70pnmOYFnE6nt1UM0Bh6MRqNxk3TdIeAOGwqfVPBbPIq3YVUZz39JjHOQNEL+F8DvN8HilNGZoOr3MuiGlk+DdUZnYYJe0HMw1wu91ty8F/G/grgI7a91x9ZVVNL4X2Zu+qoBZDU5txptVoNgTGmAeQp/rlQKGQlEok//y1FGXqfzTXe35J0D3kReYBdR48x9i2KTaO/YfT3Ku9YoBpTthkOh3eazeZtYLMkeJwfnC1Af0dBY4HiHP0DjgNM7PCkiSfu8OwDDwGJ0PIV2/zIXgAAAABJRU5ErkJggg==') no-repeat center 0;}
+.simplepagetree__node[data-hidden="2"] .simplepagetree__leaf{color:#d99;}
+.simplepagetree__node .simplepagetree__leaf:hover{color:red;}
+.simplepagetree__node .simplepagetree__leaf:hover > .simplepagetree__comment{color:#e88;}
+.simplepagetree__leaf[data-sid='']:after{content:'';padding:2px 9px;margin:0 0 0 .25em;background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AoDEBAUzqtjMQAAASJJREFUOMulk7GOgzAMhv8AV+4leAwGFoZ2yMANDOzk0cwbMHSlA0uHvgA7Uu8ZaAK+gSMCpa1Oh6VIju18tuNEMDP2iIedEgCAEOKpk4gYAJRSm4B11cErMhFxURT2jFJKNE3DvwnFAhHM7FRARJzn+cZW1zWiKAIAnE4nC/CeZc6yDFrrzcqyDH3fv79EImIpJYwxMMbYw8teSulAbAtExMfjceOcpmnO4m0LvVwuKMtSWEBVVZymqVPeOI4AAN/3HV/btijLUixTOLdt+wUASZLYIGP0PKrgw9qu1+uinp0pEBHHcWyDH48BAHA4hNZ2u92glLJTcN6B1trqwzADhPDev8S1GGMcwLqFfwHC8PPvgK7rnKD7/Ruv/oLY+51/APGGoC6GsmjCAAAAAElFTkSuQmCC') no-repeat center 1px;}
+.simplepagetree__toggle{position:absolute;top:2px;left:0;width:14px;height:14px;background:url('/system/img/collapse.png') center no-repeat;cursor:pointer;}
+.simplepagetree__toggle._collapse{background-image:url('/system/img/expand.png');}
+.simplepagetree__toggle._collapse ~ .simplepagetree__branch, .simplepagetree._hidden, .simplepagetree._inline .simplepagetree__button._close{display:none;}
+.show_simplepagetree{border-radius:4px;padding:0;width:29px;height:28px;border:1px solid #CCC;cursor:pointer;position:absolute;background:#f8f8ff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABrUlEQVQ4T42STUsCURSGX1dBC0FBFFf+gEDahKAhLtwE4aIIl26qP1B/o1U7axFDRDUTSUULpVyEYAjlMDkuR8QvXIwfUAtzbM7A2B3HwguXOXfuOc/5eK8Dv2tLN3nm/Je5qV/cm5cOxmuiadrcoMlkgnq9jlqthmg0Sj7b+hbIsAGGw+FciCiKCIVCEAQByWSSfIxKFgbkcjkUi0W0Wi2jmnw+bxSwEIBaGAwG4DgOhcILHh4ezSoTcwH/zcLtdmPUCuPrzQ3nxp19Bv1+fzoDyswuCv7urmP0uoS9dBvcrWQFjMdjsABbcCeMUWkZh1cqjs9KdL1qaYEAvV4PbGayPR4PPsU1aIoT+6dtnGek6TMgwI6+L2e143kekUjE+O3z+SDfHODoOof0xTuy2Szi8fhUBT2JtVd6MIFAAJ1OB16vF4mYB5nnrgEjGSVJsgMcjKLlchnBYBDNZhN+v98IJJsWJatUKnYA9e5yuQwnFmAGsV9ZludXoKqqATEBjUZjOlC2zWq1agUoimKTj1qg58tmNgdN4FQq9aGfV0iFmL6fZlVY4Lyr+5z8AItq/o2f9GM6AAAAAElFTkSuQmCC') no-repeat center;}
+.show_simplepagetree:hover{background-color:#FAFAFD;}
+.show_simplepagetree:focus{border-color:#52A8EC;box-shadow:0 0 8px rgba(82, 168, 236, 0.6);}
+.show_simplepagetree:disabled{border-color:#ddd;cursor:default;background-color:#f5f5f5;}
+.show_simplepagetree._lhs{border-top-right-radius:0;border-bottom-right-radius:0;border-right:0;}
+.show_simplepagetree._light{border:none;background-color:transparent;}

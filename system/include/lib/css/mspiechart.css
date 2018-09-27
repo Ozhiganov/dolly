@@ -1,0 +1,12 @@
+.mspiechart[data-type~="vertical"]{position:relative;padding-right:250px;}
+.mspiechart[data-type~="vertical"] .mspiechart__legend{position:absolute;width:200px;top:10px;right:0;}
+.mspiechart__values{position:absolute;top:.475em;right:101%;font-size:.8em;}
+.mspiechart__pct{color:#777;}
+.mspiechart__abs{display:none;}
+.mspiechart__legend[data-state="abs"] .mspiechart__pct{display:none;}
+.mspiechart__legend[data-state="abs"] .mspiechart__abs{display:inline;}
+.mspiechart__color{position:absolute;top:.35em;left:.35em;width:1em;height:1em;}
+.mspiechart__title{margin:.1em 0;padding:.2em .35em .2em 1.7em;cursor:default;position:relative;min-height:1.3em;}
+.mspiechart[data-type~="horizontal"] .mspiechart__title{display:inline-block;}
+.mspiechart[data-type~="horizontal"] .mspiechart__title + .mspiechart__title{margin-left:.75em;}
+.mspiechart__title:hover{background:#f0f8ff;}

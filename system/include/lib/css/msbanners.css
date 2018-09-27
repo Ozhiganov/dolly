@@ -1,0 +1,7 @@
+.msbanners_preview img{border:1px solid #aaaabc;}
+.msbanners_type{padding:.3em 0;}
+.msbanners_type label{margin-right:3em;padding-left:.3em;}
+.form__row._hidden{display:none;}
+.msui .lbl{width:70px;}
+#list tbody td:nth-child(4), #list tbody td:nth-child(5){text-align:center;white-space:nowrap;}
+#list tbody img{display:block;margin:1px auto -5px;}

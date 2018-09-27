@@ -1,0 +1,11 @@
+.prev_next_nav{margin:0 -10px 1em;border-top:1px solid #CFCFF7;position:relative;text-align:center;overflow:hidden;}
+.prev_next_nav__btn{display:block;position:relative;padding:.5em 1%;border-bottom:1px solid #f5f5f5;}
+.prev_next_nav__btn:hover{background:#39f;color:white;}
+@media (min-width:500px){
+.prev_next_nav__btn{width:29%;border:none;}
+.prev_next_nav__btn._prev{float:left;}
+.prev_next_nav__btn._next{float:right;}
+.prev_next_nav__btn._all{position:absolute;top:0;left:50%;margin-left:-15%;}
+.prev_next_nav__btn span{white-space:nowrap;}
+.prev_next_nav{margin-left:0;margin-right:0;}
+}

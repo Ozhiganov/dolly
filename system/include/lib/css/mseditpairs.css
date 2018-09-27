@@ -1,0 +1,8 @@
+.edit_pairs__header{display:inline-block;color:#777;}
+.edit_pairs__header._id{width:40%;padding-left:7px;}
+.edit_pairs__row{margin:.3em auto;padding:.2em 29px .2em 0;max-width:700px;position:relative;}
+.edit_pairs__row input[name^='id']{width:39%;margin-right:1%;}
+.edit_pairs__row input[name^='title']{width:60%;}
+.edit_pairs__row .delete_block{top:.2em;}
+.edit_pairs__layout_name{font-size:.85em;color:#555;padding:1px 7px;}
+.edit_pairs__layout_name:before{content:'Размещение: ';color:#aaa;}

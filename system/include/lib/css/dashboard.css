@@ -1,0 +1,22 @@
+.dashboard_section{background-color:#f8f8ff;border:solid #cfcff7;border-width:1px;max-width:500px;margin:0 0 1em;}
+.dashboard_section__header{font-size:1.2em;margin:0;padding:.3em 10px;background:#e4e4f8;}
+.dashboard_section__progbar{padding:.4em 10px .4em 32px;background-position:10px center;background-repeat:no-repeat;display:none;border-bottom:1px dotted #e4e4f8;}
+.dashboard_section__progbar._loading{display:block;}
+html[lang='en'] .dashboard_section__progbar._loading:before{content:'Loading...';}
+html[lang='ru'] .dashboard_section__progbar._loading:before{content:'Загружается...';}
+.dashboard_section__middle{padding:.5em 10px;}
+.updates__list[data-status='error']{color:red;}
+.updates__item{display:block;padding:.4em 6px .45em 24px;cursor:pointer;position:relative;}
+.updates__item + .updates__item{border-top:1px dotted #e4e4f8;}
+.updates__item:hover{box-shadow:0 0 8px rgba(82, 168, 236, 0.6);}
+.updates__item input[type='checkbox']{position:absolute;margin:0;padding:0;top:.5em;left:6px;cursor:pointer;}
+.updates__item_ver{margin-left:.75em;}
+.updates__item_ver{color:#aaa;}
+.updates__item_ver:before{content:'версия ';}
+.dashboard_section__bottom{text-align:center;padding:.5em 10px;background-color:#efeff8;}
+.dashboard_section__bottom._hidden{display:none;}
+.updates__item a{margin-left:.35em;padding:.25em .5em;background-position:91% center;}
+.updates__item a:before{content:'что нового';}
+.updates__info{color:#800;display:block;font-size:.9em;padding:4px 0 0;}
+.dashboard_section.updates{position:relative;}
+.msui_small_button.check_for_updates{position:absolute;top:6px;right:10px;}

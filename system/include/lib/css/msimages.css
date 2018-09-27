@@ -1,0 +1,39 @@
+#sortalbum{width:780px;padding:5px 0 0;}
+.outer{float:left;width:125px;cursor:move;margin:0 4px 4px 0;}
+.outer .frame{border:1px solid #aaaabc;background:#f7f7ff;position:relative;}
+.outer .frame em{position:absolute;display:none;top:0;left:0;bottom:0;right:0;background:#222240;opacity:0.5;z-index:4;}
+.outer .frame em.del{background:#a22;display:block;opacity:0.7;border:1px solid red;top:-1px;left:-1px;bottom:-1px;right:-1px;}
+.outer .frame:hover em{display:block;}
+.outer .frame:hover{border-color:#222240;}
+.outer .frame > p{height:90px;padding:0;margin:2px;background:no-repeat center;}
+.outer .frame div{cursor:default;padding:4px 0 2px;display:none;position:absolute;left:-1px;right:-1px;top:94px;background:#efeff8;z-index:5;border:1px solid #222240;border-top:none;}
+.outer .frame:hover div{display:block;}
+.outer .frame div p{margin:0 0 2px;text-align:center;}
+.outer .frame div label{font:normal 10px tahoma;margin-left:2px;display:inline-block;width:85px;vertical-align:top;padding:2px 4px;text-align:left;}
+.outer .frame div .edit{height:28px;text-align:center;margin:0;}
+.outer .frame div .edit label, .outer .frame div .edit i, .outer .frame div .edit a{display:inline-block;width:34px;height:26px;background-position:center;margin:0 2px;padding:0;}
+.outer .frame div .edit label{background:url('/system/img/trash.png') no-repeat center;}
+.outer .frame div .edit a{background:url("/system/img/pencil.png") no-repeat center;}
+.outer .frame div .edit i{background:url("/system/img/crop.png") no-repeat center;}
+.outer .frame div .edit label:hover{background-color:#fdd;opacity:0.9;}
+.outer .frame div .edit a:hover{background-color:#dadaed;opacity:0.9;}
+.outer .frame div .edit i:hover{background-color:#dadaed;opacity:0.9;}
+.outer .frame div .edit input{display:none;}
+.outer .frame div input:checked + label{background:#222240;color:white;}
+.plug{border:1px dashed #cfcfe2;background:white;width:123px;height:94px;}
+.outer.helper{border:none;width:125px;height:96px;}
+h3 em{font-weight:normal;}
+.msimages .buttons{padding:5px 0;text-align:center;position:relative;height:20px;}
+.msimages .buttons.bottom{clear:both;padding-bottom:25px;}
+.msimages .buttons input{margin:0 15px;}
+.msimages .msui_small_button.select{background-image:url('/system/img/checkbox_yes.png');}
+.msimages .msui_small_button.select.all{background-image:url('/system/img/checkbox_no.png');}
+.msimages .msui_small_button.select.partly{background-image:url('/system/img/checkbox_yes_opacity.png');}
+.msimages .info{position:absolute;left:0;top:5px;}
+.msimages .total{padding:3px 7px;color:#222240;background:#f8f8ff;display:inline-block;}
+.msimages .total span{padding:0;color:black;}
+.wm_preview{display:inline-block;width:22px;height:22px;background-image:url('/system/img/stamp.png');vertical-align:top;margin-left:25px;position:relative;z-index:10;}
+.wm_preview img{border:1px solid black;display:none;background:white;}
+.wm_preview:hover img{display:block;}
+#fast_load_form[data-hidden="1"], #fast_load_form[data-hidden="0"] + .form._load_image{display:none;}
+#fast_load_form .middle{width:80%;margin:auto;}

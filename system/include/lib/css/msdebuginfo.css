@@ -1,0 +1,33 @@
+.msdebuginfo_clear{padding:3px 0 10px;}
+.msdebuginfo_clear input[type="date"]{padding:0 3px;margin:0;border:1px solid #ccc;background:white;font-size:12px;font-family:monospace;}
+
+#errors tbody .type{font-family:courier;}
+#errors tbody .info{line-height:150%;}
+.error__msg{padding:2px 0;}
+.lbl_referer{color:#777;}
+
+#sys_exception tbody td, table.exception{line-height:150%;font-family:verdana;}
+.table .exception_info{color:#777;font-family:tahoma;}
+.exception_info._line{white-space:nowrap;}
+.table .exception_time{color:#222240;text-transform:lowercase;margin-right:15px;}
+.table .exception_href{display:inline-block;color:#0000cd;font-size:12px;}
+.table .exception_href._referer:before{content:'referer: ';color:#777;}
+.table .exception_href._url, .table .error_href._url{margin-right:15px;}
+table.exception{border-collapse:separate;border-spacing:0 1px;font-size:12px;margin:12px 0;}
+table.exception th, table.exception td{vertical-align:top;line-height:15px;}
+table.exception th{padding:2px 0;font-weight:normal;text-align:right;color:#777;white-space:nowrap;}
+table.exception th.num{color:#222240;text-align:left;}
+table.exception tr + tr th.num{padding-top:10px;}
+table.exception td{padding:2px 8px;font-family:monospace;}
+code.dump{margin:10px;padding:0;display:block;white-space:pre-wrap;line-height:150%;}
+.nav{margin:2px 0 10px;line-height:2em;}
+.nav a{margin-right:1.5em;}
+.host{background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnUlEQVQ4T2NkoBAwUqifYdQAhsEQBsv3nf+PLyojnQzxxhQjyIAIRwOsZqzYf4GBJAMYGRGWXX/+meHC9TvEG3D7PcQnakJMYPr1n/8Mew6R4AKQASDNt979A9O7Lz5hePP2NfEuYBR3ZNh/YDmDiaYEw7VHHxlevnzP8PXLB+INOP7wM8PPb1/Bzv/87ScDGwsTw/t3b4kzgJJoBACPcFYRKd2W9AAAAABJRU5ErkJggg==') no-repeat 1px -2px;padding-left:13px;}
+table.exception.trace pre{white-space:pre-wrap;margin:0;}
+
+#profiles td.info{background:url('/system/img/down_arrow.png') center no-repeat;}
+.msprofiles__info_wr{position:relative;}
+.msprofiles__info{position:absolute;background:white;border:1px solid #222240;padding:8px 13px;line-height:150%;z-index:50;right:5px;top:2px;white-space:nowrap;display:none;box-shadow:2px 2px 12px #222240;border-radius:6px 0 6px 6px;}
+#profiles td.info:hover .msprofiles__info{display:block;}
+.msprofiles__label{color:#888;}
+.msprofiles__message{white-space:normal;}

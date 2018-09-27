@@ -1,0 +1,43 @@
+.nav{text-align:right;padding:0 0 8px;}
+.b_state{border:none;background:white no-repeat center;width:16px;height:16px;cursor:pointer;margin:0 5px;vertical-align:middle;}
+.b_state._collapse{background:url('/system/img/collapse.png');}
+.b_state._expand{background:url('/system/img/expand.png');}
+.nav .add_msmap{margin-right:20px;}
+.map._prototype{display:none;}
+.map, #maps .dnd_dummy{margin:0 0 10px;}
+.map__top{position:relative;padding:37px 7px 5px;background:#dfdfff;white-space:nowrap;}
+.map__top, #maps .dnd_dummy{border-radius:7px 7px 0 0;}
+.map__top [name="title"]{display:block;width:250px;}
+.map__top label{color:#777;}
+.map .map__action{position:absolute;top:8px;width:24px;height:24px;cursor:pointer;background-color:transparent;background-repeat:no-repeat;background-position:center;z-index:10;border:none;}
+.map__action:hover{opacity:0.7;}
+.map__action:focus, .map .submit_search:focus{outline:1px solid #52A8EC;}
+.map__action._save{right:119px;background-image:url('/system/img/save.png');}
+.map__action._collapsed, .map__action._expanded{right:80px;}
+.map__action._move{right:43px;}
+.map:first-child:last-child .top .move{display:none;}
+.map__action._delete{right:6px;background-image:url('/system/img/delete_22x22.png');}
+.map__area{height:350px;margin:0 0 10px;border:1px solid #aaaabc;}
+.map._collapsed .map__top{border-bottom:1px solid #aaaabc;padding-top:9px;}
+.map._collapsed .map__action._save, .map._collapsed .multiselect3, .map._collapsed .map__area{display:none;}
+.map._collapsed [name="title"]{background-color:transparent;border-color:transparent;color:#222240;}
+.map._captured{position:absolute;opacity:0.7;z-index:50;}
+.map .submit_search{right:-32px;border:none;height:22px;border-radius:0;background-color:transparent;}
+#maps .dnd_dummy{border:1px dashed #aaaabc;background:#f8f8fd;}
+#msmaps_placemark_menu{border:1px solid #222240;background:white;box-shadow:3px 3px 8px #222240;position:absolute;z-index:100;width:245px;padding:10px;font-size:1.2em;}
+#msmaps_placemark_menu.hidden{display:none;}
+#msmaps_placemark_menu .colors{padding:4px 0 0;height:41px;margin-right:-5px;}
+#msmaps_placemark_menu .colors span{float:left;width:28px;height:15px;cursor:pointer;margin:3px 3px 0 0;border-radius:4px;}
+#msmaps_placemark_menu .colors span[data-title="white"]{border:1px solid #aaaabc;width:26px;height:13px;}
+#msmaps_placemark_menu textarea{width:241px;height:60px;font-size:1em;}
+#msmaps_placemark_menu .bottom{clear:both;}
+#msmaps_placemark_menu .bottom .close{float:right;}
+@media (min-width: 449px){
+.map__top{padding-top:6px;}
+}
+@media (max-width: 539px){
+.map__top [name="title"]{margin-bottom:4px;}
+}
+@media (min-width: 540px){
+.map__top [name="title"]{display:inline-block;margin-right:.75em;-moz-transition:width 0.8s;-o-transition:width 0.8s;-webkit-transition:width 0.8s;transition:width 0.8s;}
+}

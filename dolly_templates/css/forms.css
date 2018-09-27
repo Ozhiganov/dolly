@@ -1,0 +1,20 @@
+.toolbar__action._select_form{color:#000;border:1px solid #dee0e3;border-radius:3px;cursor:pointer;font-size:1em;padding:4px 6px 4px 28px;margin:0 5px;background:#f7f8f9 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACQ0lEQVQ4T5WTX0jTURTHv0c2m87+ECtKI4hFJUlQjBFIPaSQWAalJW6CsV42pSiFhTL/5BaStdlDbiLhjGxLF0QpU6GiehADmyDRqIiYT0ZR0EN/9ttvt/u70zBR1B8czrmXcz7n/M45l5whkweM2QCouKz8Y/A1lgcvUEvgzK/9+iMaAq08mHtGPj5NtJgG1OS4c1Iy7ilSEa0O8Co6DFfVQ6KmvjJZna5OW1V67izFJbRWPiBqvlfG7KXdvA0ykkISKTs5d5b5OSnuGBTNRK7uEReumDmgvucEc5h7EZd+Qk7+4SJxiXOAouckIcDJpKJlbNBuw61HTWizPCaq9R5lV88NQJJ/i8CULAaRZiEy1muzceO+HZ7qUaJq92HmOR+elz0VvDRExrqMLXD6a+Cte0lkcRlZ1+UXkJlSdmJe2f9DMtdsRJZmM9SqTCR4tYHRDlQdayAyNeSx3tYJgDdKZrzMRSBZGh3eT0/h2esAPn+fRrZOjwKDGXk78n106tJO1n/9LYh4j3nnF0LSecbopwjuDrtE9w25xZiIhoVtKXGCiq05bLAzxgFIjXEBRMuzO7yl+PZjRgR11Y/D2nZQ2Dmb9KCCszr2xP9FXIh5z85agSmzV6VlwNJ8AIX5JlQW2f/tW99IO56Ph0CHKta+AWjvUpsY7JhEe48VM19jwqXf/Q7ldbuFvX3rruVfEN+82rHJsPvabeXBAqdLahAa7BR2o82/PCD1a8w7FgnbgkM38SE2hVy9ARXHL8K4r9D3F1KhdeIsS+LiAAAAAElFTkSuQmCC') no-repeat 7px center;}
+.toolbar__action._select_form[data-handler='1']{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACc0lEQVQ4T5WTX0iTURjGn9ft0zAEiyLLuiotcI7GYncZ1IUWGGVTSe0PK8OkggyqySxToyA0ClIpyhXZakqCknahFyYIUSmV2bIGjpxdJBlt6rbzfTsdt0kLvdADD+cP7/M7L+97DlW3FNSB85MA1EKLHxwNFfm2M1T5JG9Gt3HnMgIt3iwiB5w9cmWBXSLLw/3MsCVLTbQ0wOvPXag50kZ06bFRkWKlmCVdL4JZgKGqqJXocrORnz9wV5RBQTAkObwOzu0VsQ+GzjiCkH0zgKLg/qubuFIoAOYHe7ml0IoAm4YS9AsxoYAAzM5zkkPgDfHpcLTfAlQqvPM6UVxiIyqrz+RXj9nBFF/IGNZ8SFJcCobbaqHJzgZzV+Lr4HpM/VKfo9LaDF53ujPq9rA5GrJSlYyh1uvQ7ssBGz0B7nPA69sBl2MNyFRj4I0XeqHw2bTlqLTDkASeiPdPq6Ez5v8zT23GuCsNXL0OVFCu4daqt4AolMLZf5A4JmGwuQL6/ENR5hS4RzUiXIKh1E6Uc3YTf3ZjGESixqLycxCaYRiwXsS2QhOYK5L2VNisMEBb1ID4FUlEe0qSeccdlwAg3MYI5E19GfTGYvAJC4KebngjZuaXsfXwPRjNenQ2uol2HV3Fu5t+ht5RqN+i17+/f4G7vwWa3HKwH32YHLFgzLkWfo8POlMT/JIfxlN69FgniLYfTBgCKC36JWYsX43yqnZIqhjwgBdsegiD7Tbojz9CZmlqJJR/6rN5NAt+gOcl2g9Z5tvpAc84JseccPR2Yfe1/gVj5x3ac6H6E58qJ8aqPnLgWwzHC0WtvMxrHHEv9F/+AkuuhcZeYObwAAAAAElFTkSuQmCC');}
+.toolbar__action._select_form:hover{background-color:white;}
+.toolbar__action._selected{border-color:#009fee;}
+.toolbar__button._save{position:absolute;top:-2px;right:10px;}
+.forms_list{display:inline-block;min-width:110px;min-height:27px;background-repeat:no-repeat;background-position:2px 2px;}
+.forms_list._loading{padding-left:24px;}
+html[lang='en'] .forms_list._loaded:before{content:'Forms: ';}
+html[lang='en'] .forms_list._empty:before{content:'Forms not found.';}
+html[lang='ru'] .forms_list._loaded:before{content:'Формы: ';}
+html[lang='ru'] .forms_list._empty:before{content:'Формы не обнаружены.';}
+.fields_types__item{padding:2px 0;white-space:nowrap;}
+.fields_types__item [name$="[title]"]{width:200px;vertical-align:middle;border-top-right-radius:0;border-bottom-right-radius:0;}
+.fields_types__item [name$="[type]"]{width:115px;vertical-align:middle;border-top-left-radius:0;border-bottom-left-radius:0;margin-right:9px;border-left:none;}
+.msui_small_button._create_template{position:absolute;top:-1px;right:1px;font-size:.85em;}
+.form__row[data-name="template"]{position:relative;}
+.form__row[data-name="fields"] .form__label{width:auto;position:relative;}
+.form__row[data-name="fields"] .form__label:after{content:'проверять как:';color:#b7b7b7;position:absolute;left:207px;}
+.form__row[data-name="msg_success"] .form__label{display:block;width:auto;padding-bottom:2px;}
+.form__row[data-name="msg_success"] input[type='text']{width:100%;}
